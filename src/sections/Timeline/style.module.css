@@ -1,0 +1,181 @@
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  height: 5em;
+
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+.legendItem {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 0.4em 0.8em;
+}
+
+.dot {
+  width: 0.85em;
+  height: 0.85em;
+
+  border-radius: 50%;
+  background: inherit;
+  border: 1px solid hsl(0, 0%, 74%);
+}
+
+.legendDot {
+  margin-right: 0.5em;
+}
+
+.timelineNavigationContainer {
+  position: fixed;
+  right: 2vw;
+  top: calc(100vh - var(--timeline-navigation-height) - 2vh);
+  display: flex;
+  flex-direction: column;
+
+  width: var(--timeline-navigation-width);
+
+  font-size: clamp(0.8rem, 1.1vw, 1rem);
+}
+
+.timelineNavigation {
+  flex: 1;
+}
+
+.stepBtn {
+  opacity: 0.8;
+
+  color: var(--color) !important;
+  font-weight: lighter;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 100%;
+
+  padding: 0.6em 1.8em;
+
+  line-height: 1.35em;
+}
+
+.experienceHeader {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  width: 100%;
+}
+
+.title {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  font-weight: 600;
+}
+
+.duration {
+  flex-basis: 25%;
+}
+
+.headerLastItem {
+  flex-basis: 25%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.story {
+  overflow-y: auto;
+
+  margin: 1.7em 1.5em;
+}
+
+.usedTechs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.drawer {
+  z-index: 667;
+}
+
+.largeVp {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+  width: min(calc(100vw - var(--timeline-navigation-width) - 5em), 55em);
+
+  margin-left: 3vw;
+
+  font-size: clamp(0.8rem, 1.2vw, 1.4rem);
+}
+
+.connector {
+  z-index: -1;
+  position: absolute;
+
+  width: 13px;
+}
+
+.card {
+  height: min(60vh, 30em);
+
+  background: var(--background-2);
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+
+  transition: transform 0.6s ease-out;
+}
+
+.card:hover {
+  transform: scale(1.04);
+}
+
+.tech {
+  transform: scale(0.8);
+}
+
+.smallVp {
+  min-height: var(--app-height);
+
+  padding-top: calc(var(--header-height) + 1.5em);
+  padding-bottom: 10em;
+}
+
+.mobile {
+  padding-top: var(--header-height);
+  padding-bottom: 0;
+
+  font-size: 0.9em;
+}
+
+.timeline {
+  height: 50em;
+}
+
+.education {
+  border-color: hsl(154, 71%, 52%);
+}
+
+.employee {
+  border-color: hsl(196, 71%, 52%);
+}
+
+.freelance {
+  border-color: hsl(347, 71%, 52%);
+}

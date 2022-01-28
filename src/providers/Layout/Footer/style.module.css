@@ -1,0 +1,16 @@
+.root {
+  z-index: 42;
+  position: fixed;
+  bottom: 1vh;
+  left: 3vw;
+}
+
+.rights {
+  font-family: "Courier New", monospace;
+  letter-spacing: 0.1rem;
+  font-size: clamp(0.5rem, 1.3vw, 0.75rem);
+}
+
+.symbol {
+  font-size: 1.25em;
+}

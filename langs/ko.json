@@ -1,0 +1,161 @@
+{
+  "layout/header-closeMenu": {
+    "defaultMessage": "메뉴 닫기"
+  },
+  "layout/header-darkThemeMode": {
+    "defaultMessage": "불을 켜"
+  },
+  "layout/header-lightThemeMode": {
+    "defaultMessage": "빛을 해제"
+  },
+  "layout/header-openMenu": {
+    "defaultMessage": "메뉴 열기"
+  },
+  "layout/header-translate": {
+    "defaultMessage": "번역하다"
+  },
+  "layout/header/navigation-contacts": {
+    "defaultMessage": "콘택트 렌즈"
+  },
+  "layout/header/navigation-introduction": {
+    "defaultMessage": "소개"
+  },
+  "layout/header/navigation-skills": {
+    "defaultMessage": "기술"
+  },
+  "layout/header/navigation-timeline": {
+    "defaultMessage": "타임라인"
+  },
+  "pages/root-home": {
+    "defaultMessage": "홈페이지"
+  },
+  "sections/purpose-story": {
+    "defaultMessage": "<story1>저는 파리에 거주하는 프랑스 소프트웨어 엔지니어입니다. 5년 이상 동안 저는 아름다운 코드를 작성하고 <skills>훌륭한 기술</skills>을 사용하여 <timeline>강력하고 기능적인 웹 제품</timeline>을 만드는 데 열정을 가지고 있습니다.</story1><story2>Agile 개발자로서 제 주요 목표는 예상 제품을 제시간에 제공하고 작업을 투명하게 만드는 것입니다. 당신은 내 일을 좋아하고 나와 이야기하고 싶어? 내 <email>이메일</email>로 연락하거나 간단히 <phone>전화</phone>하세요!</story2>"
+  },
+  "sections/purpose-title": {
+    "defaultMessage": "안녕하세요, 저는 Florian입니다. 이것은 제 대화형 이력서입니다."
+  },
+  "sections/timeline-closeDrawer": {
+    "defaultMessage": "닫다"
+  },
+  "sections/timeline-duration": {
+    "defaultMessage": "지속"
+  },
+  "sections/timeline-education": {
+    "defaultMessage": "교육"
+  },
+  "sections/timeline-employee": {
+    "defaultMessage": "고용"
+  },
+  "sections/timeline-europAssistance": {
+    "defaultMessage": "Europ Assistance"
+  },
+  "sections/timeline-europAssistanceStory": {
+    "defaultMessage": "<ea>Europ Assistance</ea>의 경우 관리자가 사용자 권한을 관리할 수 있도록 완전한 클라이언트 측 백오피스를 만들었습니다."
+  },
+  "sections/timeline-freelance": {
+    "defaultMessage": "프리랜서"
+  },
+  "sections/timeline-monthDuration": {
+    "defaultMessage": "{duration} 개월"
+  },
+  "sections/timeline-monthsDuration": {
+    "defaultMessage": "{duration} 개월"
+  },
+  "sections/timeline-oecd": {
+    "defaultMessage": "OECD"
+  },
+  "sections/timeline-oecdStory": {
+    "defaultMessage": "<oecd>경제협력개발기구(OECD)</oecd>는 국제 경제 기구입니다. OECD 저자들의 책 출판을 돕기 위해 고안된 애플리케이션을 통해 제 임무는 다음과 같은 목표를 달성했습니다.<ul><li>최대 70%의 범위를 포함하는 단위 테스트 구현.</li><li>The 상당한 성능 향상과 소스 코드의 더 나은 확장성을 생성하는 거대한 문서 출판 형식의 리팩토링 저자 프로필 및 출판물 유형.</li></ul>"
+  },
+  "sections/timeline-redpelicans": {
+    "defaultMessage": "Redpelicans"
+  },
+  "sections/timeline-redpelicansStory": {
+    "defaultMessage": "<p><redpelicans>Redpelicans</redpelicans>는 파리에 기반을 둔 회사로 고객에게 전체 스택 Javascript 전문 지식을 제공합니다.</p><p>직원으로 일하면서 처음 3개월은 집중적인 풀 스택이었습니다. 자바스크립트 교육 기간. 이후 정교한 Javascript 프로젝트에 점진적으로 통합하여 해당 분야에서 20년 이상의 경험을 가진 개발자와 함께 일할 수 있는 기회를 갖게 되었습니다.</p>"
+  },
+  "sections/timeline-school": {
+    "defaultMessage": "School 42"
+  },
+  "sections/timeline-schoolStory": {
+    "defaultMessage": "<p><school>42</school>는 전문적인 환경에서 엄격한 업계 최고의 교육을 제공하는 <bestSchool>최고의</bestSchool> 엔지니어링 및 프로그래밍 대학 중 하나입니다. 이 프로그램은 학생들이 디지털 세계와 기술 산업에 대비할 수 있도록 설계되었습니다.</p><p><schoolProjects>흥미로운 프로젝트</schoolProjects> 42개를 통해 <lowLevel>저수준</lowLevel> 코딩을 완벽하게 할 수 있었습니다. 기술과 팀 내에서 일하는 법을 배웁니다.</p>"
+  },
+  "sections/timeline-selfEducation": {
+    "defaultMessage": "독학"
+  },
+  "sections/timeline-selfEducationStory": {
+    "defaultMessage": "<p>코딩을 발견한 2010년에 제 여정이 시작되었습니다. 저는 첫 번째 프로그래밍 언어(C, C++, Python)를 처음부터 배우면서 '자동 진단' 방식으로 첫 걸음을 내디뎠습니다. 아주 빨리, 나는 유용한 소프트웨어를 만들 수 있을 뿐만 아니라 단지 몇 줄의 코드로 고통스러운 작업을 자동화할 수 있다는 사실을 좋아했습니다.</p><p>특히 WEB에 관심이 생기기 시작했습니다. 이 기간 동안 봇, 웹 스크레이퍼, 웹 앱과 같은 재미있는 프로젝트를 만들었습니다.</p>"
+  },
+  "sections/timeline-sisCc": {
+    "defaultMessage": "SIS-CC"
+  },
+  "sections/timeline-sisCcStory": {
+    "defaultMessage": "프로젝트는 <sis>SIS-CC</sis> 아키텍처에서 인증 서비스를 구현하는 것이었으며, 이 미션에는 다음이 포함되었습니다.<ul><li>Keycloak 도구에 대한 예비 연구 및 솔루션의 검증 모델 제공 .</li><li>개인 경로를 관리하기 위한 권한 부여 워크플로 및 반응 구성 요소의 구현.</li><li>인증을 관리하기 위한 아키텍처 서버의 업그레이드.</li><li>구현 타사 개발자를 위한 비공개 백엔드 서비스의 예</li></ul>"
+  },
+  "sections/timeline-techs": {
+    "defaultMessage": "중고 기술"
+  },
+  "sections/timeline-unicef": {
+    "defaultMessage": "UNICEF"
+  },
+  "sections/timeline-unicef2": {
+    "defaultMessage": "UNICEF 2"
+  },
+  "sections/timeline-unicef2Story": {
+    "defaultMessage": "이 임무에서 저는 새로운 그래픽 시리즈 추가 또는 일부 보기에서 모바일 지향 반응형 구현과 같은 <childMortality>childmortality</childMortality> 인터페이스에 새로운 기능을 구현했습니다."
+  },
+  "sections/timeline-unicefStory": {
+    "defaultMessage": "<p><unicef>UNICEF</unicef>와의 첫 번째 임무를 위해 HTML 웹 섹션의 일부를 PDF 또는 PNG로 변환할 수 있는 웹 서비스 형태로 렌더링 서버를 구축해야 했습니다.</p><p> 여기에는 Puppeteer를 통해 페이지 렌더링 서비스를 호스팅하는 nodejs 서버 개발과 클라이언트가 유니세프 프로젝트 관리자에게 서비스 사용을 시연할 수 있는 '쇼룸' 구현이 포함됩니다.</p>"
+  },
+  "sections/timeline-yearDuration": {
+    "defaultMessage": "{duration} 년"
+  },
+  "sections/timeline-yearsDuration": {
+    "defaultMessage": "{duration} 년"
+  },
+  "sections/contacts-email": {
+    "defaultMessage": "이메일"
+  },
+  "sections/contacts-mailSubject": {
+    "defaultMessage": "안녕 !"
+  },
+  "sections/contacts-phone": {
+    "defaultMessage": "핸드폰"
+  },
+  "sections/contacts-resume": {
+    "defaultMessage": "재개하다"
+  },
+  "sections/contacts/banner-contactMe": {
+    "defaultMessage": "저에게 연락"
+  },
+  "sections/landing-dev": {
+    "defaultMessage": "개발자"
+  },
+  "sections/landing-scroll": {
+    "defaultMessage": "SCROLL"
+  },
+  "sections/landing-swipeUp": {
+    "defaultMessage": "SWIPE UP"
+  },
+  "sections/landing-webDev": {
+    "defaultMessage": "웹 개발자"
+  },
+  "sections/skills-back": {
+    "defaultMessage": "Back-End"
+  },
+  "sections/skills-front": {
+    "defaultMessage": "Front-End"
+  },
+  "sections/skills-languages": {
+    "defaultMessage": "언어"
+  },
+  "sections/skills-others": {
+    "defaultMessage": "일부 다른 사람들"
+  },
+  "sections/skills-story": {
+    "defaultMessage": "<story1>저는 성능이 우수하고 <i18n>국제화</i18n>되며 <seo>SEO</seo>에 최적화된 <responsive>반응형</responsive> 웹 앱을 만듭니다. 제 전문 분야는 프론트엔드 개발,</story1><story2><strong>감사합니다</strong> 효율적인 사용자 인터페이스를 구축하는 것이 쉬워졌습니다.</story2><story3>대부분의 최신 웹 기술을 사용하면서 프로덕션으로 가져올 수 있었기 때문에 작업 중인 프로젝트의 스택에 쉽게 적응할 수 있습니다.</story3>"
+  },
+  "sections/skills-tools": {
+    "defaultMessage": "도구"
+  }
+}

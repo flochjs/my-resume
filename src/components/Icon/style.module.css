@@ -1,0 +1,6 @@
+.root {
+  min-height: 24px;
+  min-width: 24px;
+
+  fill: var(--icon-color, #000);
+}

@@ -1,0 +1,90 @@
+.root {
+  z-index: 42;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: var(--header-height);
+  width: 100%;
+
+  padding: 0 4vw;
+
+  font-family: "Josefin Sans", sans-serif;
+  background: transparent;
+
+  transition-property: background, box-shadow;
+  transition-duration: 0.9s;
+  transition-timing-function: ease-out;
+}
+
+.opaque {
+  background: var(--background);
+
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+
+.brand {
+  font-size: clamp(1.3rem, 2.2vw, 3rem);
+  font-weight: 300;
+  color: var(--color) !important;
+}
+
+.rightSection {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+
+  margin-right: 2em;
+}
+
+.navSmallVp {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+
+  margin: 0;
+
+  font-size: clamp(1.8rem, 3vw, 3.5rem);
+}
+
+.navLink {
+  font-size: 1.1em;
+  font-weight: normal;
+  letter-spacing: 0.15em;
+  color: var(--color) !important;
+}
+
+.navSmallVp .navLink:not(:last-child) {
+  margin-bottom: 0.3em;
+}
+
+.nav:not(.navSmallVp) .navLink:not(:last-child) {
+  margin-right: 0.8em;
+}
+
+.activeNavLink {
+  color: var(--primary-color) !important;
+}
+
+.githubLink {
+  display: none;
+}
+
+@media screen and (min-width: 500px) {
+  .githubLink {
+    display: inline-flex;
+  }
+
+  .menuToggle {
+    margin-left: 24px;
+  }
+}

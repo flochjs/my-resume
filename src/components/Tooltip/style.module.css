@@ -1,0 +1,40 @@
+.root {
+  position: relative;
+
+  width: fit-content;
+}
+
+.root::after {
+  --margin: 10px;
+
+  z-index: 42;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  word-wrap: break-word;
+
+  content: attr(data-tooltip-text);
+
+  max-width: 10rem;
+  width: max-content;
+
+  padding: 0.8rem;
+
+  font-size: 0.8rem;
+  line-height: 1.15rem;
+  border-radius: 4px;
+  color: #fff;
+  background: hsl(0, 0%, 20%);
+
+  transition: opacity 0.3s ease-out;
+}
+
+.root:hover::after {
+  visibility: visible;
+  opacity: 1;
+}
+
+.noMargin::after {
+  --margin: 0;
+}

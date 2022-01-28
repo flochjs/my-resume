@@ -1,0 +1,25 @@
+.root {
+  font-weight: 600;
+}
+
+.root:not(.disabled) {
+  text-decoration: none;
+  cursor: pointer;
+
+  transition-property: opacity, color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+.root:link {
+  color: var(--primary-color, hsl(199, 80%, 50%));
+}
+
+.root:visited {
+  color: var(--primary-color, hsl(207, 27%, 38%));
+}
+
+.root:active,
+.root:not(.disabled):hover {
+  opacity: 0.75;
+}

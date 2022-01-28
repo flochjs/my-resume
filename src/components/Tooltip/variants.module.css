@@ -1,0 +1,96 @@
+.bottomAbsoluteStart::after,
+.bottom::after,
+.bottomStart::after,
+.bottomEnd::after,
+.bottomAbsoluteEnd::after {
+  top: 100%;
+  margin-top: var(--margin);
+}
+
+.topAbsoluteStart::after,
+.top::after,
+.topStart::after,
+.topEnd::after,
+.topAbsoluteEnd::after {
+  bottom: 100%;
+  margin-bottom: var(--margin);
+}
+
+.bottomAbsoluteStart::after,
+.topAbsoluteStart::after {
+  right: 100%;
+
+  transform: translateX(50%);
+}
+
+.bottom::after,
+.top::after {
+  left: 50%;
+
+  transform: translateX(-50%);
+}
+
+.bottomStart::after,
+.topStart::after {
+  left: 0;
+}
+
+.bottomEnd::after .topEnd::after {
+  right: 0;
+}
+
+.bottomAbsoluteEnd::after,
+.topAbsoluteEnd::after {
+  left: 100%;
+
+  transform: translateX(-50%);
+}
+
+.leftAbsoluteStart::after,
+.left::after,
+.leftStart::after,
+.leftEnd::after,
+.leftAbsoluteEnd::after {
+  right: 100%;
+  margin-right: var(--margin);
+}
+
+.rightAbsoluteStart::after,
+.right::after,
+.rightStart::after,
+.rightEnd::after,
+.rightAbsoluteEnd::after {
+  left: 100%;
+  margin-left: var(--margin);
+}
+
+.leftAbsoluteStart::after,
+.rightAbsoluteStart::after {
+  top: 0;
+
+  transform: translateY(-50%);
+}
+
+.left::after,
+.right::after {
+  top: 50%;
+
+  transform: translateY(-50%);
+}
+
+.leftStart::after,
+.rightStart::after {
+  top: 0;
+}
+
+.leftEnd::after,
+.rightEnd::after {
+  bottom: 0;
+}
+
+.leftAbsoluteEnd::after,
+.rightAbsoluteEnd::after {
+  bottom: 0;
+
+  transform: translateY(50%);
+}

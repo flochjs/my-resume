@@ -1,0 +1,25 @@
+.root {
+  --timeline-navigation-height: 85vh;
+  --timeline-navigation-width: 25rem;
+
+  font-size: clamp(0.7rem, 0.7vw + 1.6vh, 1.8rem);
+}
+
+.timelineNavigation {
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+
+  height: 0;
+
+  transition-property: opacity, height;
+  transition-duration: 1.2s;
+  transition-timing-function: ease-out;
+}
+
+.timelineNavigationAppear {
+  opacity: 1;
+  visibility: visible;
+
+  height: var(--timeline-navigation-height);
+}

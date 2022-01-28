@@ -1,0 +1,15 @@
+.fromTop {
+  transform: var(--translate, translate(0, -100%));
+}
+
+.fromRight {
+  transform: var(--translate, translate(100%, 0));
+}
+
+.fromBottom {
+  transform: var(--translate, translate(0, 100%));
+}
+
+.fromLeft {
+  transform: var(--translate, translate(-100%, 0));
+}

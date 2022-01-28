@@ -1,0 +1,22 @@
+.dropDown {
+  --top: initial;
+  --left: initial;
+}
+
+.dropDownRight {
+  --right: 0;
+}
+
+.dropStart {
+  --top: 0;
+  --right: 100%;
+}
+
+.dropEnd {
+  --top: 0;
+  --left: 100%;
+}
+
+.dropUp {
+  --bottom: 100%;
+}

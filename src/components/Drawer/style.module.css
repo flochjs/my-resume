@@ -1,0 +1,21 @@
+.root {
+  z-index: 41;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  max-width: 100%;
+  height: 100%;
+
+  background: var(--background-2, hsl(0, 0%, 74%));
+  color: var(--color, #000);
+
+  transition-property: transform;
+  transition-duration: 0.9s;
+  transition-timing-function: ease-out;
+}
+
+.visible {
+  --translate: translate(0, 0);
+}

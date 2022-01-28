@@ -1,0 +1,52 @@
+.root {
+  display: grid;
+  place-items: center;
+  place-content: center;
+  text-align: center;
+
+  width: min(50em, 100%);
+  height: var(--app-height);
+
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.facePicture {
+  opacity: 0.9;
+
+  max-width: 10em;
+
+  margin-bottom: 2vh;
+
+  border-radius: 50%;
+}
+
+.title {
+  width: 100%;
+
+  padding-bottom: 3vh;
+
+  border-bottom: 1px solid hsl(0, 0%, 22%);
+  font-size: 1.7em;
+  font-weight: 600;
+}
+
+.stories {
+  font-size: 0.95em;
+}
+
+.story1,
+.story2 {
+  text-align: left;
+}
+
+@media screen and (min-width: 600px) {
+  .stories {
+    display: flex;
+  }
+
+  .story1 {
+    text-align: right;
+    margin-right: 2em;
+  }
+}

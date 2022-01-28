@@ -1,0 +1,79 @@
+{
+  "name": "flochjs-resume",
+  "version": "1.0.0",
+  "private": true,
+  "description": "My Resume",
+  "author": "flochjs",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "start": "yarn develop",
+    "develop": "gatsby develop -H 0.0.0.0",
+    "test": "jest --watchAll --silent",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "lint": "gulp lint --gulpfile './.gulprc.js'",
+    "extract": "formatjs extract",
+    "compile": "formatjs compile",
+    "prepare": "husky install"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.19",
+    "classnames": "^2.3.1",
+    "gatsby": "^3.13.1",
+    "gatsby-plugin-gatsby-cloud": "^4.6.0",
+    "gatsby-plugin-image": "^1.14.0",
+    "gatsby-plugin-manifest": "^4.5.2",
+    "gatsby-plugin-offline": "^5.5.2",
+    "gatsby-plugin-postcss": "^4.14.0",
+    "gatsby-plugin-react-helmet": "^5.6.0",
+    "gatsby-plugin-react-intl": "^3.0.2",
+    "gatsby-plugin-react-svg": "^3.0.1",
+    "gatsby-plugin-sharp": "^3.14.0",
+    "gatsby-source-filesystem": "^3.14.0",
+    "gatsby-transformer-sharp": "^3.14.0",
+    "ramda": "^0.27.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-intl": "^5.20.12"
+  },
+  "devDependencies": {
+    "@formatjs/cli": "^4.3.1",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/react-hooks": "^7.0.2",
+    "autoprefixer": "^10.3.6",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.4.5",
+    "babel-preset-gatsby": "^2.4.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.25",
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-stylelint": "^13.0.0",
+    "husky": ">=6",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.4.5",
+    "lint-staged": ">=10",
+    "postcss": "^8.3.8",
+    "postcss-normalize": "^10.0.1",
+    "prettier": "^2.4.1",
+    "react-test-renderer": "^17.0.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^22.0.0"
+  },
+  "lint-staged": {
+    "*.{js,css,html,md}": "prettier --write"
+  }
+}
